@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.noneByRight;
+})();
 })();
 </script>
 ```
@@ -193,6 +195,7 @@ var mean = context.sum / context.count;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by-right@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 function isPositive( value ) {
     return ( value > 0 );
@@ -210,6 +213,7 @@ for ( i = 0; i < arr.length; i++ ) {
 bool = noneByRight( arr, isPositive );
 // returns true
 
+})();
 })();
 </script>
 </body>
@@ -324,17 +328,17 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/any-by-right]: https://github.com/stdlib-js/utils-any-by-right/tree/umd
+[@stdlib/utils/any-by-right]: https://github.com/stdlib-js/utils-any-by-right/tree/umd/tree/umd
 
-[@stdlib/utils/every-by-right]: https://github.com/stdlib-js/utils-every-by-right/tree/umd
+[@stdlib/utils/every-by-right]: https://github.com/stdlib-js/utils-every-by-right/tree/umd/tree/umd
 
-[@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right/tree/umd
+[@stdlib/utils/for-each-right]: https://github.com/stdlib-js/utils-for-each-right/tree/umd/tree/umd
 
-[@stdlib/utils/none]: https://github.com/stdlib-js/utils-none/tree/umd
+[@stdlib/utils/none]: https://github.com/stdlib-js/utils-none/tree/umd/tree/umd
 
-[@stdlib/utils/none-by]: https://github.com/stdlib-js/utils-none-by/tree/umd
+[@stdlib/utils/none-by]: https://github.com/stdlib-js/utils-none-by/tree/umd/tree/umd
 
-[@stdlib/utils/some-by-right]: https://github.com/stdlib-js/utils-some-by-right/tree/umd
+[@stdlib/utils/some-by-right]: https://github.com/stdlib-js/utils-some-by-right/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
