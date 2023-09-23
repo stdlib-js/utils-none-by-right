@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import noneByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by-right@deno/mod.js';
+import noneByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by-right@v0.1.0-deno/mod.js';
 ```
 
 #### noneByRight( collection, predicate\[, thisArg ] )
@@ -174,7 +174,7 @@ var mean = context.sum / context.count;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import noneByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by-right@deno/mod.js';
+import noneByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by-right@v0.1.0-deno/mod.js';
 
 function isPositive( value ) {
     return ( value > 0 );
