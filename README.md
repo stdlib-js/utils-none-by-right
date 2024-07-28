@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import noneByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by-right@esm/index.mjs';
+import noneByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by-right@v0.2.2-esm/index.mjs';
 ```
 
 #### noneByRight( collection, predicate\[, thisArg ] )
@@ -179,7 +179,7 @@ var mean = context.sum / context.count;
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import noneByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by-right@esm/index.mjs';
+import noneByRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by-right@v0.2.2-esm/index.mjs';
 
 function isPositive( value ) {
     return ( value > 0 );
